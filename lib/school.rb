@@ -22,7 +22,6 @@ class School
   def sort(students)
     students = []
       @roster.sort.each do |name, grade|
-        a <=> b
   end
     students
 end
