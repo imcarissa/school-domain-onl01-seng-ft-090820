@@ -1,4 +1,3 @@
-require 'pry'
 class School
   
   attr_accessor :school, :roster, :grade, :sort
@@ -25,8 +24,7 @@ class School
       @roster.sort do |name, grade|
         a <=> b
   end
-    @roster
-  end
+end
   
 end
 
