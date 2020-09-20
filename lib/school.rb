@@ -19,11 +19,13 @@ class School
     @roster[level]
   end
 
-  def sort
-      @roster.each do |name, grade|
-       
-    en
- end
+  def sort 
+    students = {}
+      @roster.each do |name, grade| 
+      students[name] = grade.sort 
+  end 
+    students
+end 
   
 end
 
