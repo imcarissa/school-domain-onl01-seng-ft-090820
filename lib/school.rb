@@ -24,6 +24,7 @@ class School
       @roster.sort.each do |name, grade|
         a <=> b
   end
+    students
 end
   
 end
